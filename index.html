@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+        <img src="assets/Logo Alura latam.png" alt="Logo E">
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <div class="izquierda">
+                <textarea id="areaTexto" class="area_texto" name="" id="" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="footer_izquierdo"> 
+                    <img src="assets/Logo exclamacion.png" alt="Símbolo de exclamación">
+                    <span class="izquierda_mensaje_informativo">Solo letras minúsuclas y sin acentos</span>
+                    <div class="izquierda_botones">
+                        <button id="botonEncriptar" class="boton_encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton_desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="derecha" class="derecha">
+                <img id="muñeco" class="muñeco" src="assets/Muñeco.png" alt="muñeco mirando un diamante con una lupa">
+                <div class="espacio">
+                    <textarea id="mensaje" class="mensaje" placeholder="Ningún mensaje fue encontrado" readonly></textarea>
+                    <p id="derechaMensajeInformativo" class="derecha_mensaje_informativo">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+                <button id="botonCopiar" class="boton_copiar ocultar">Copiar Texto y Volver al Inicio</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer_texto">© 2024 Eric Miguel Tejeda Pérez</p>
+        <div class="footer_social">
+            <a href="https://www.linkedin.com/in/eric-miguel-tejeda-pérez-5b600930b/" target="_blank" class="footer_link">
+                <img src="assets/linkedin-icon.png" alt="Linkedin" class="footer_iconos">
+            </a>
+            <a href="https://github.com/themasterby" target="_blank" class="footer_link">
+                <img src="assets/github-icon.png" alt="Github" class="footer_iconos">
+            </a>
+        </div>
+    </footer> 
+
+    <script src="js/script.js"> </script>
+
+</body>
+</html>
